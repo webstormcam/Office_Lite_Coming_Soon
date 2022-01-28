@@ -113,6 +113,7 @@ a{
     .header_sections{
       
         flex-direction: row;
+        margin-top: 4rem;
         
     }
 
@@ -124,6 +125,10 @@ a{
     .logo{
     align-self: flex-start;
          
+        }
+
+        .charts{
+            margin-top: 0rem;
         }
 
         .header_words{
