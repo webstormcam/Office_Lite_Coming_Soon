@@ -64,9 +64,10 @@ width: 10rem;
 }
 
 .top-back{
-    position: absolute;
+    position: absolute !important;
     width: 30rem;
     top: -12rem;
+  
 }
 
 .header_words{
