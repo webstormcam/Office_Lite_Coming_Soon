@@ -4,4 +4,35 @@
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.header_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    background-image: url('imgs/home/bg-pattern-header.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px -120px ;
+
+}
+
+.logo{
+margin-top: 2rem;
+}
+
+.charts{
+    width: 15rem;
+    margin-top: 4rem;
 }
