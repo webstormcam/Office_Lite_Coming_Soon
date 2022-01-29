@@ -119,6 +119,10 @@ a{
         
     }
 
+    .header_items{
+        padding: 2rem;
+    }
+
     .top_photos{
        order: 5;
        
