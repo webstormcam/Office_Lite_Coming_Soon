@@ -57,7 +57,6 @@ header{
     flex-direction: column;
     align-items: center;
    width: 100%;
-    max-width: 500px;
     position: relative;
 
   
@@ -91,7 +90,7 @@ width: 10rem;
     align-items: center;
     padding: 1.4rem;
     width: 100%;
-    max-width: 600px;
+   
     text-align: center;
    
 }
@@ -145,6 +144,7 @@ main{
 
     .header_items{
         padding: 2rem;
+        max-width: 900px;
     }
 
     .top_photos{
@@ -182,4 +182,50 @@ main{
         a{
            align-self: flex-start;
         }
+}
+
+
+
+@media screen and (min-width:1024px){
+    
+.header_sections{
+    margin-top: 2rem;
+
+}
+
+.header_items{
+    padding: 2rem;
+    max-width: 950px;
+}
+
+
+    h1{
+        font-size: 44px;
+    }
+
+    .header_words{
+        padding-right: 3rem;
+    }
+
+    .headerp{
+      
+        font-size: 18px;
+        line-height: 2rem;
+     
+        
+    }
+    
+    
+    
+    .charts{
+       
+        width: 24rem;}
+
+
+}
+
+@media screen and (min-width:1440px) {
+    .header_items{
+        max-width: 1300px;
+    }
 }
