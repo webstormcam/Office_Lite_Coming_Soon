@@ -103,10 +103,10 @@ a{
     display: inline-block;
     color: #fff;
     background-color: #5175FF;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
     text-align: center;
     text-decoration: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     font-weight: bold;
 
 }
@@ -119,6 +119,8 @@ a{
         
     }
 
+   
+
     .header_items{
         padding: 2rem;
     }
@@ -128,6 +130,14 @@ a{
        
     }
 
+    .top-back{
+        position: absolute !important;
+        width: 45rem;
+        top: -23rem;
+        left: 0rem;
+      
+    }
+
     .logo{
     align-self: flex-start;
          
@@ -135,6 +145,10 @@ a{
 
         .charts{
             margin-top: 0rem;
+            width: 20rem;
+            position: relative;
+            top: 4rem;
+            left: 1rem;
         }
 
         .header_words{
