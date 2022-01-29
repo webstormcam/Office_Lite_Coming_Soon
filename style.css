@@ -226,6 +226,23 @@ main{
 
 @media screen and (min-width:1440px) {
     .header_items{
-        max-width: 1300px;
+        max-width: 1250px;
     }
+
+    h1{
+        font-size: 56px;
+        line-height: 4rem;
+    }
+
+    .charts{
+       
+        width: 29.6rem;}
+
+        .top-back{
+            position: absolute !important;
+            width: 63rem;
+            top: -33rem;
+            left: -4rem;
+          
+        }
 }
