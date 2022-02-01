@@ -142,9 +142,6 @@ main{
     align-items: center;
     width: 100%;
     margin-top: 4rem;
-    position: absolute;
-    top: 55rem;
-  
 }
 
 .main-items{
@@ -152,6 +149,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 90%;
+    position: absolute;
 }
 
 .card{
