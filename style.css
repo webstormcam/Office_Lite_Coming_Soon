@@ -46,6 +46,10 @@ footer{
     align-items: center;
     justify-content: flex-end;
     position: relative;
+    background-image: url('imgs/home/bg-pattern-footer.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header_items{
@@ -213,9 +217,7 @@ main{
     margin-bottom: 4rem;
 }
 
-.bottom-background{
-    position: relative;
-}
+
 
 @media screen and (min-width:768px) {
     .header_sections{
