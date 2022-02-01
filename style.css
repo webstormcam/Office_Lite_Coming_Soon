@@ -38,7 +38,9 @@ header{
 
 
 footer{
-    height: 40rem;
+    width: 100%;
+    height: 70rem;
+    background-color: #25293A;
 }
 
 .header_items{
@@ -169,6 +171,10 @@ main{
 
 .card2{
     background-color: #5175FF;
+}
+
+.card3{
+    background-color: #fff;
 }
 
 .button{
