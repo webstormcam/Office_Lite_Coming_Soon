@@ -36,6 +36,11 @@ header{
   
 }
 
+
+footer{
+    height: 40rem;
+}
+
 .header_items{
     display: flex;
     flex-direction: column;
@@ -104,6 +109,13 @@ h1{
     line-height: 3rem;
 }
 
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
 .headerp{
     color: #747B95;
     font-size: 16px;
@@ -129,6 +141,9 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 4rem;
+    position: absolute;
+    top: 55rem;
   
 }
 
@@ -136,18 +151,48 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card1{
+    background-color: #fff;
+}
+
+.card2{
+    background-color: #5175FF;
+}
+
+.button{
+    align-self: auto;
+    margin-bottom: 3rem;
 }
 
 .stats{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.stats p{
+    margin-bottom: 2rem;
+}
+
+.bigp{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width:768px) {
