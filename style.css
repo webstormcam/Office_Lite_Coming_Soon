@@ -154,6 +154,7 @@ main{
     width: 100%;
     margin-top: 4rem;
     height: 55rem;
+    overflow: hidden;
 }
 
 .main-items{
@@ -163,6 +164,7 @@ main{
     width: 90%;
     position: absolute;
     z-index: 900;
+    overflow: hidden;
 }
 
 .card{
@@ -181,15 +183,43 @@ main{
 
 .card2{
     background-color: #5175FF;
-    background-image: url('imgs/home/bg-pattern-pricing.svg');
+    /* background-image: url('imgs/home/bg-pattern-pricing.svg');
     background-repeat: no-repeat;
     background-position: top ;
-    background-size: cover;
+    background-size: cover; */
+    position: relative;
+    overflow: hidden;
+}
+
+.card2  p{
+    color: #fff;
+}
+
+.card2 h2{
+    color:#fff
+}
+
+.card-button{
+    color: #5175FF;
+    background-color: #97979756;
+}
+
+.pro-button{
+    background-color: #fff;
+    color: #5175FF;
+}
+
+.pricing{
+    position: absolute;
+    top: -27rem;
+    width: 60rem;
+   
 }
 
 .card3{
     background-color: #fff;
 }
+
 
 .button{
     align-self: auto;
