@@ -181,6 +181,10 @@ main{
 
 .card2{
     background-color: #5175FF;
+    background-image: url('imgs/home/bg-pattern-pricing.svg');
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: cover;
 }
 
 .card3{
