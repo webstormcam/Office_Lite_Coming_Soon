@@ -425,4 +425,23 @@ main{
             left: -4rem;
           
         }
+
+        .main-items{
+            flex-direction: row;
+            max-width: 1250px;
+            justify-content: center;
+        }
+
+        .card{
+            flex-direction: column;
+            justify-content: space-around;
+            width: 33%;
+            max-width: 350px;
+          
+        }
+
+        .card2{
+            margin-left: 2rem ;
+            margin-right: 2rem;
+        }
 }
