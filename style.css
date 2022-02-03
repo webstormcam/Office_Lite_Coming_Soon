@@ -464,3 +464,9 @@ main{
             height: 35rem;
         }
 }
+
+@media screen and (min-width:1440px){
+    .header_sections{
+        margin-top: 8rem;
+    }
+}
