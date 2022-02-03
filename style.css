@@ -395,6 +395,10 @@ main{
        
         width: 24rem;}
 
+        .main-items{
+            max-width: 950px;
+        }
+
 
 }
 
