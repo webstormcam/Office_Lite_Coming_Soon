@@ -429,7 +429,7 @@ main{
         .main-items{
             flex-direction: row;
             max-width: 1250px;
-            justify-content: center;
+            justify-content: space-around;
         }
 
         .card{
