@@ -354,7 +354,11 @@ main{
        }
 
        .main-items{
-           max-width: 800px;
+           max-width: 900px;
+       }
+
+       .top_photos{
+           align-items: flex-end;
        }
 }
 
