@@ -46,10 +46,10 @@ footer{
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    background-image: url('imgs/home/bg-pattern-footer.svg');
+    /* background-image: url('imgs/home/bg-pattern-footer.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .header_items{
