@@ -418,6 +418,10 @@ main{
         line-height: 4rem;
     }
 
+    main{
+        margin-top: 10rem;
+    }
+
     .charts{
        
         width: 29.6rem;}
@@ -439,13 +443,24 @@ main{
         .card{
             flex-direction: column;
             justify-content: space-around;
-            width: 33%;
-            max-width: 350px;
+          width: 350px;
           
         }
 
         .card2{
             margin-left: 2rem ;
             margin-right: 2rem;
+        }
+
+        .header_sections{
+            margin-top: 8rem;
+        }
+
+        main{
+            height: 17rem;
+        }
+
+        footer{
+            height: 35rem;
         }
 }
