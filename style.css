@@ -315,11 +315,11 @@ main{
         }
 
        main{
-           height: 40rem;
+           height: 30rem;
        }
 
        footer{
-           height: auto;
+           height: 50rem;
        }
 
        .cardwords{
@@ -329,6 +329,10 @@ main{
            flex-direction: column;
            align-items: baseline;
            justify-content: flex-start;
+       }
+
+       .cardwords h2{
+           margin-top: 0rem;
        }
 
        .stats{
@@ -347,6 +351,10 @@ main{
 
        .mobile{
            display: none;
+       }
+
+       .main-items{
+           max-width: 800px;
        }
 }
 
