@@ -209,6 +209,10 @@ main{
     color: #5175FF;
 }
 
+.tablet-white{
+    background-color: #fff;
+}
+
 .pricing{
     position: absolute;
     top: -27rem;
@@ -265,7 +269,8 @@ main{
         
     }
 
-    .pricing{ position: absolute; top: -22rem; left: -20rem; width: 60rem; }
+    .pricing{ position: absolute; top: -22rem; left: -20rem; width: 60rem;
+    z-index:0; }
 
    
 
@@ -455,7 +460,7 @@ main{
         }
 
         .header_sections{
-            margin-top: 8rem;
+            margin-top: 4rem;
         }
 
         main{
@@ -469,6 +474,10 @@ main{
 
 @media screen and (min-width:1440px){
     .header_sections{
-        margin-top: 8rem;
+        margin-top: 4rem;
+    }
+
+    .card{
+        text-align: center;
     }
 }
