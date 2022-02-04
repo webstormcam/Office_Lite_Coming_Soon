@@ -236,6 +236,11 @@ main{
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    z-index: 500;
+}
+
+.cardwords{
+    z-index: 500;
 }
 
 .stats p{
