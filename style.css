@@ -295,9 +295,9 @@ main{
     .logo{
     align-self: flex-start;
          
-        }
+}
 
-        .charts{
+.charts{
             margin-top: 0rem;
             width: 20rem;
             position: relative;
@@ -470,6 +470,18 @@ main{
         footer{
             height: 35rem;
         }
+
+        .cardwords{
+            margin-left: 0rem;
+            align-items: center;
+        }
+      
+          .stats{
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              margin-right: 0rem;
+          }
 }
 
 @media screen and (min-width:1440px){
@@ -480,4 +492,6 @@ main{
     .card{
         text-align: center;
     }
+
+  
 }
