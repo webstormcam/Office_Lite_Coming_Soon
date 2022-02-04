@@ -562,6 +562,10 @@ color: #fff;
         margin-top: 5rem;
     }
 
+    header{
+        padding-bottom: 3.5rem;
+    }
+
     .card{
         text-align: center;
     }
