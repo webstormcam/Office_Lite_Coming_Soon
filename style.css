@@ -482,6 +482,10 @@ main{
               align-items: center;
               margin-right: 0rem;
           }
+
+          .pricing{
+              left: -19rem;
+          }
 }
 
 @media screen and (min-width:1440px){
