@@ -51,6 +51,7 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
+ 
 }
 
 .header_items{
@@ -260,6 +261,7 @@ main{
     align-items: center;
     margin-bottom: 4rem;
     z-index: 500;
+    width: 375px;
 }
 
 .tablet{
@@ -279,6 +281,34 @@ color: #fff;
     top: -5rem;
     z-index: 0;
     width: 105rem;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #333950;
+    padding:1rem ;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.smallgrey{
+    color: #979797;
+    font-weight: bold;
+}
+
+.white{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 
