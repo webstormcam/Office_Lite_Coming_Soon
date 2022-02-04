@@ -265,6 +265,8 @@ main{
         
     }
 
+    .pricing{ position: absolute; top: -22rem; left: -20rem; width: 60rem; }
+
    
 
     .header_items{
@@ -452,7 +454,9 @@ main{
             margin-right: 2rem;
         }
 
-       
+        .header_sections{
+            margin-top: 8rem;
+        }
 
         main{
             height: 17rem;
