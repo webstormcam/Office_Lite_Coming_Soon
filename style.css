@@ -264,6 +264,14 @@ main{
     display: none;
 }
 
+.footer-items h2{
+color: #fff;
+}
+
+.footer-items span{
+    color: #5175FF;
+}
+
 
 
 @media screen and (min-width:768px) {
