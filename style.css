@@ -36,6 +36,10 @@ header{
   
 }
 
+.mobile{
+    z-index: 5000;
+}
+
 
 footer{
     width: 100%;
@@ -602,6 +606,7 @@ color: #fff;
         }
         .mobile{
             display: block;
+          
         }
 
         .tablet{
@@ -618,6 +623,10 @@ color: #fff;
 
         .cardwords{
             margin-bottom: 2rem;
+        }
+
+        .main-items{
+            width: 100%;
         }
 }
 
