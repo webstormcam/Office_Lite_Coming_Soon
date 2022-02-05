@@ -328,6 +328,10 @@ color: #fff;
     align-items: center;
 }
 
+.footerimgbig{
+    display: none;
+}
+
 
 
 @media screen and (min-width:768px) {
@@ -594,11 +598,14 @@ color: #fff;
             width: 100%;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+           
            
         }
 
         .coming-soon{
-            width:550px
+            width:550px;
+            z-index: 500;
         }
 
         .coming-soon h2{
@@ -608,6 +615,7 @@ color: #fff;
 
         .footer-button{
             margin-right: 1rem;
+            z-index: 500;
         }
         .mobile{
             display: block;
@@ -632,6 +640,13 @@ color: #fff;
 
         .main-items{
             width: 100%;
+        }
+
+        .footerimgbig{
+            display: block;
+            position: absolute;
+            z-index: 0;
+            left: -50rem;
         }
 }
 
