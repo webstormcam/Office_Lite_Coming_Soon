@@ -558,7 +558,7 @@ color: #fff;
         }
 
         footer{
-            height: 35rem;
+            height: 40rem;
         }
 
         .cardwords{
@@ -599,6 +599,11 @@ color: #fff;
 
         .coming-soon{
             width:550px
+        }
+
+        .coming-soon h2{
+            align-self: flex-start;
+            margin-left: 1.2rem;
         }
 
         .footer-button{
