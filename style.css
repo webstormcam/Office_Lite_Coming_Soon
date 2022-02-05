@@ -580,6 +580,26 @@ color: #fff;
            
             
         }
+        .footerimg{
+            display: none;
+        }
+
+        .footer-items{
+            flex-direction: row;
+            max-width: 1250px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        .coming-soon{
+            width:550px
+        }
+
+        .footer-button{
+            margin-right: 1rem;
+        }
 }
 
 @media screen and (min-width:1440px){
@@ -594,6 +614,8 @@ color: #fff;
     .card{
         text-align: center;
     }
+
+    
 
   
 }
