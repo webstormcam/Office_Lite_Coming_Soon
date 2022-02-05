@@ -378,7 +378,7 @@ color: #fff;
        }
 
        footer{
-           height: 50rem;
+           height: 55rem;
        }
 
        .cardwords{
@@ -426,6 +426,14 @@ color: #fff;
         width: 80rem;
        
         
+    }
+
+    .white{
+        font-size: 56px;
+    }
+
+    .footer-items{
+        width:600px
     }
 
 }
