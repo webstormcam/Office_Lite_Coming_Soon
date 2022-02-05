@@ -615,6 +615,10 @@ color: #fff;
         .stats{
             margin-bottom: 0rem;
         }
+
+        .cardwords{
+            margin-bottom: 2rem;
+        }
 }
 
 @media screen and (min-width:1440px){
