@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8dae054;
+    width: 100%;
+  height: auto;
+    position: relative;
+  overflow-x: hidden;
+   
+  
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   position: relative;
+   height: 100%;
+   overflow-x: hidden;
+   padding-bottom: 2rem;
+
+  
+  
+  
+}
+
+.header_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+.logo{
+    margin-top: 2rem;
+    width: 10rem;
+    
+    
+    }
