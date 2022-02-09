@@ -161,6 +161,17 @@ header{
         position: relative;
     }
 
+    input{
+        border-style: hidden;
+        border-bottom: 1px solid grey;
+        margin-bottom: 1rem;
+        font-size: 16px;
+      }
+
+      .no-outline:focus {
+        outline: none;
+      }
+
     .choices{
         position: absolute;
         top: 4rem;
