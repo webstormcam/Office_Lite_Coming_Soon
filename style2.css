@@ -152,6 +152,18 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 1rem;
+        background-color: #fff;
+        width: 327px;
+        border-radius: 1rem;
+    }
+    select{
+        position: relative;
+    }
+
+    .choices{
+        position: absolute;
+        top: 4rem;
     }
     
     
