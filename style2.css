@@ -146,6 +146,13 @@ header{
         align-items: center;
         margin-top: 4rem;
     }
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
     
     
