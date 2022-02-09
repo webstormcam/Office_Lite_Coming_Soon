@@ -177,6 +177,15 @@ header{
         position: absolute;
         top: 4rem;
     }
+
+    .button{
+        color: #fff;
+        background-color: #5175FF;
+        width: 90%;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
     
     
     
