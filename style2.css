@@ -284,6 +284,10 @@ header{
         .smallgrey{
             margin-top: 0.5rem;
         }
+
+        input{
+            margin-bottom: 2rem;
+        }
     }
 
 
