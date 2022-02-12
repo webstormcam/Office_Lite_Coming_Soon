@@ -39,6 +39,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
   
   
     
@@ -55,6 +56,8 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+       
+        
 
        
         
@@ -81,6 +84,7 @@ header{
     .header_words{
         text-align: center;
         z-index: 5000;
+       
     }
 
     h1{
@@ -89,6 +93,7 @@ header{
         font-weight: bold;
         color: #333950;
         margin-bottom: 1rem;
+        max-width: 600px;
     }
 
     h2{
@@ -96,6 +101,7 @@ header{
         font-weight: bold;
         letter-spacing: 0.3rem;
         margin-bottom: 2rem;
+        
     }
 
     span{
@@ -107,7 +113,8 @@ header{
         font-size: 16px;
         color: #747B95;
         line-height: 1.5rem;
-        width: 327px;
+        padding: 1rem;
+       
     }
 
     .boxs{
@@ -147,7 +154,7 @@ header{
     }
 
     #form-section{
-        width: 100%;
+     
         display: flex;
         justify-content: center;
         position: relative;
@@ -162,11 +169,14 @@ header{
         justify-content: center;
         padding: 1rem;
         background-color: #fff;
-        width: 327px;
         border-radius: 1rem;
         position: absolute;
         overflow: hidden;
         z-index: 500;
+        min-width: 327px;
+        max-width: 600px;
+        
+        
     }
     select{
         position: relative;
@@ -176,7 +186,7 @@ header{
         font-size: 16px;
         padding: 1rem;
         text-align: left;
-        width: 230px;
+       width: 90%;
     }
 
     input{
@@ -185,6 +195,7 @@ header{
         margin-bottom: 1rem;
         font-size: 16px;
         padding: 1rem ;
+        width: 90%;
       }
 
       .no-outline:focus {
