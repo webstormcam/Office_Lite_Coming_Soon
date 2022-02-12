@@ -266,6 +266,24 @@ header{
         .header_words p{
             padding:1rem 4rem;
         }
+
+        .coming-soon{
+            width: 448px;
+        }
+
+        .box{
+            width: 100px;
+            
+           
+        }
+
+        .white{
+            font-size: 40px;
+        }
+
+        .smallgrey{
+            margin-top: 0.5rem;
+        }
     }
 
 
