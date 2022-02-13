@@ -319,7 +319,7 @@ header{
         }
 
         header{
-            padding: 0rem 2rem;
+            padding: 0rem 2.5rem;
         }
 
         .top-back{
@@ -370,6 +370,13 @@ header{
 
      
 
+    }
+
+
+    @media screen and (min-width:1440px) {
+        form{
+            width: 445px;
+        }
     }
 
 
