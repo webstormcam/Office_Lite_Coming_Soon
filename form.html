@@ -16,62 +16,65 @@
 </head>
 
 <body>
-    <header>
+    <div id="body-items">
+        <header>
 
-        <div class="header_items">
-            <img class="logo" src="imgs/shared/logo.svg" alt="officelite logo">
-            <div class="header_sections">
-                <div class="top_photos">
-                    <img class="top-back" src="imgs/home/bg-pattern-header.svg" alt="background">
-                </div>
-                <div class="header_words">
-                    <h1>Work smarter. <br> Save time.</h1>
-                    <p>Easily manage your projects. Get on the list and receive in-app perks available only to early
-                        subscribers. We are moving into final development and getting ready for official launch soon.
-                    </p>
-                </div>
-                <div class="coming-soon">
-                    <h2>COMING <span>JAN 31ST 2023</span></h2>
-                    <div class="boxs">
-                        <div class="days box">
-                            <p id="dayNum" class="white">00</p>
-                            <p class="smallgrey">days</p>
-                        </div>
-                        <div class="hours box">
-                            <p id="hourNum" class="white">00</p>
-                            <p class="smallgrey">hours</p>
-                        </div>
-                        <div class="min box">
-                            <p id="minNum" class="white">00</p>
-                            <p class="smallgrey">min</p>
-                        </div>
-                        <div class="sec box">
-                            <p id="secNum" class="white">00</p>
-                            <p class="smallgrey">sec</p>
+            <div class="header_items">
+                <img class="logo" src="imgs/shared/logo.svg" alt="officelite logo">
+                <div class="header_sections">
+                    <div class="top_photos">
+                        <img class="top-back" src="imgs/home/bg-pattern-header.svg" alt="background">
+                    </div>
+                    <div class="header_words">
+                        <h1>Work smarter. <br> Save time.</h1>
+                        <p>Easily manage your projects. Get on the list and receive in-app perks available only to early
+                            subscribers. We are moving into final development and getting ready for official launch
+                            soon.
+                        </p>
+                    </div>
+                    <div class="coming-soon">
+                        <h2>COMING <span>JAN 31ST 2023</span></h2>
+                        <div class="boxs">
+                            <div class="days box">
+                                <p id="dayNum" class="white">00</p>
+                                <p class="smallgrey">days</p>
+                            </div>
+                            <div class="hours box">
+                                <p id="hourNum" class="white">00</p>
+                                <p class="smallgrey">hours</p>
+                            </div>
+                            <div class="min box">
+                                <p id="minNum" class="white">00</p>
+                                <p class="smallgrey">min</p>
+                            </div>
+                            <div class="sec box">
+                                <p id="secNum" class="white">00</p>
+                                <p class="smallgrey">sec</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+        </header>
+        <div id="form-section">
+            <form action="#">
+                <input class="no-outline" type="text" placeholder="Name">
+                <input class="no-outline" type="email" name="" id="" placeholder="Email">
 
+                <select name="pack" class="no-outline" id="choice">
+                    <div class="choices">
+                        <option value="basic" selected><span class="bold">Basic Pack</span> Free</option>
+                        <option value="pro"><span class="bold">Pro Pack</span> $9.99</option>
+                        <option value="ultimate"><span class="bold">Ultimate Pack</span> $19.99</option>
+                    </div>
+                </select>
+                <input class="no-outline" type="tel" id="phone" name="phone" placeholder="Phone Number">
+                <input class="no-outline" type="text" placeholder="Company">
+                <input class="no-outline button" type="submit" value="Get on the list">
+
+            </form>
         </div>
-    </header>
-    <div id="form-section">
-        <form action="#">
-            <input class="no-outline" type="text" placeholder="Name">
-            <input class="no-outline" type="email" name="" id="" placeholder="Email">
-
-            <select name="pack" class="no-outline" id="choice">
-                <div class="choices">
-                    <option value="basic" selected><span class="bold">Basic Pack</span> Free</option>
-                    <option value="pro"><span class="bold">Pro Pack</span> $9.99</option>
-                    <option value="ultimate"><span class="bold">Ultimate Pack</span> $19.99</option>
-                </div>
-            </select>
-            <input class="no-outline" type="tel" id="phone" name="phone" placeholder="Phone Number">
-            <input class="no-outline" type="text" placeholder="Company">
-            <input class="no-outline button" type="submit" value="Get on the list">
-
-        </form>
     </div>
     <footer>
         <img src="imgs/home/bg-pattern-footer.svg" alt="">
