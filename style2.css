@@ -255,6 +255,9 @@ header{
     }
 
     @media  screen and (min-width:768px) {
+     
+       
+       
         .header_items{
             max-width: 680px;
         }
@@ -307,21 +310,12 @@ header{
 
         form{
             position: relative;
-            top: 5rem;
+            top: 10rem;
             width: 400px;
         }
 
         .top-back{
             display: none;
-        }
-
-        header{
-            padding: 2rem;
-        }
-
-        body{
-            flex-direction: row;
-            align-items: baseline;
         }
 
         .header_sections{
@@ -348,6 +342,18 @@ header{
         .boxs{
             justify-content: space-between;
         }
+
+        #body-items{
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body{
+            background: linear-gradient(90deg, #d8dae054 70%, #25293A 40%);
+          } 
+
+     
 
     }
 
