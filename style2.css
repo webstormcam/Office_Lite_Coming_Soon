@@ -382,6 +382,28 @@ header{
         form{
             width: 445px;
         }
+
+        h1{
+            font-size: 56px;
+            width: 540px;
+        }
+
+        #body-items{
+            width: 1300px;
+        }
+
+        .header_words p{
+            font-size: 18px;
+            width: 540px;
+        }
+
+        .box{
+            width: 106px;
+        }
+
+        .white{
+            font-size: 45px;
+        }
     }
 
 
