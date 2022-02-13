@@ -290,6 +290,47 @@ header{
         }
     }
 
+    @media screen and (min-width:1024px){
+        footer{
+            display: none;
+        }
+
+        form{
+            position: relative;
+        }
+
+        body{
+            flex-direction: row;
+            align-items: baseline;
+        }
+
+        .header_sections{
+            align-items: flex-start;
+        }
+
+        .header_words{
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .header_words p{
+            padding: 0rem;
+        }
+
+        h1{
+            width: 400px;
+        }
+
+        .coming-soon{
+           align-items: flex-start;
+        }
+
+        .boxs{
+            justify-content: space-between;
+        }
+
+    }
+
 
     
     
