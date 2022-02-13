@@ -21,6 +21,10 @@ body{
   
 }
 
+.sign-up-lines{
+    display: none;
+}
+
 #body-items{
     position: relative;
    
@@ -314,6 +318,10 @@ header{
             width: 400px;
         }
 
+        header{
+            padding: 0rem 2rem;
+        }
+
         .top-back{
             display: none;
         }
@@ -352,6 +360,13 @@ header{
         body{
             background: linear-gradient(90deg, #d8dae054 70%, #25293A 40%);
           } 
+
+
+          /* .sign-up-lines{
+              display: block;
+              position: absolute;
+             overflow: hidden;
+          } */
 
      
 
