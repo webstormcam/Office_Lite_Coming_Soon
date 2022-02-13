@@ -326,8 +326,13 @@ header{
             display: none;
         }
 
+        .logo{
+            margin-top: 3rem;
+        }
+
         .header_sections{
             align-items: flex-start;
+            margin-top: 3rem;
         }
 
         .header_words{
@@ -353,7 +358,7 @@ header{
 
         #body-items{
             flex-direction: row;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
         }
 
