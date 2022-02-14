@@ -355,6 +355,7 @@ header{
 
         .boxs{
             justify-content: space-between;
+            width: 500px;
         }
 
         #body-items{
